@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.w50 img {
+    max-width: 100%;
+}
+section{
+    padding: 100px;
+}
+.banner{
+    position: relative;
+    min-height: 100vh;
+    background: url(../img/heat.jpg);
+    background-size: cover;
+    background-position: right;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner h2{
+    font-size: 3em;
+    font-weight: 500;
+    color: #ffffff;
+    line-height: 1.5em;
+}
+.banner h2 span{
+    font-size: 1.5em;
+    font-weight: 700;
+}
+.banner h3{
+    font-size: 1.5em;
+    font-weight: 500;
+    color: #ffffff;
+}
+.btn{
+    position: relative;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 30px;
+    background-color: #2671d3;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s;
+}
+header.sticky{
+    background-color: #ffffff;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0, 0.1);
+    padding: 20px 100px;
+}
+header .logo{
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+header.sticky .logo{
+    color: #000000;
+}
+header ul{
+    position: relative;
+    display: flex;
+}
+header ul li{
+    position: relative;
+    list-style-type: none;
+}
+header ul li a{
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 15px;
+    color: #ffffff;
+}
+header.sticky ul li a{
+    color: #000000;
+}
+
+.heading{
+    width: 100%;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #000000;
+}
+.heading h2{
+    font-weight: 600;
+    font-size: 30px;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+
+}
+.contentBx{
+    padding-right: 30px;
+}
+.contentBx h3{
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+.w50{
+    min-width: 50%;
+}
+
+.services{
+    background: #111111;
+}
+.heading.white{
+    color: #ffffff;
+}
+.services .content{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.services .servicesBx{
+    padding: 40px 20px;
+    background: #222;
+    color: #fff;
+    text-align: center;
+    max-width: 340px;
+    margin: 20px;
+    transition: 0.5s;
+}
+.services .servicesBx:hover{
+    background: #2671d3;
+}
+.services .servicesBx img{
+    max-width: 80px;
+    filter: invert(1);
+}
+.services .servicesBx h2{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.work .content{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.work .content .workBx{
+    width: 32%;
+    padding: 20px;
+}
+.work .content .workBx img{
+    width: 100%;
+}
+
+.testimonial{
+    background: #ffffff; 
+}
+.testimonial .content{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.testimonial .content .testimonialBx{
+    margin: 20px;
+    padding: 60px 40px;
+    background: #2671d3;
+    max-width: calc(50% - 40px);
+}
+.testimonial .content .testimonialBx p{
+    color: #fff;
+    font-style: italic;
+    font-size: 16px;
+    font-weight: 300;
+}
+.testimonial .content .testimonialBx h3{
+    font-size: 20px;
+    font-weight: 600;
+    text-align: end;
+    color: #fff;
+    margin-top: 40px;
+    line-height: 1em;
+}
+.testimonial .content .testimonialBx h3 span{
+    font-size: 14px;
+    font-weight: 400;
+}
